@@ -1,0 +1,7 @@
+# 强制所有文本文件使用 LF 换行符
+* text=auto
+
+# 忽略 .idea/ 目录中的文件
+.idea/* text eol=crlf
+*.xml text eol=lf
+*.md text eol=lf
